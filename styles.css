@@ -24,7 +24,13 @@ h1 {
 h2 {
     color: #7FDBFF;
 }
-
+img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Adjust the max-width as needed */
+    display: block;
+    margin: 0 auto;
+}
 .back-button:hover {
     background-color: #00b7ff;
     transform: scale(1.1);
