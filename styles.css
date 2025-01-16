@@ -14,23 +14,40 @@ body {
     text-decoration: none;
     color: inherit;
     display: block;
-    font-size: 30px; 
+    font-size: 30px;
 }
 
 h1 {
     color: #0074D9;
+    border: 2px solid #0074D9;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #001f3f;
+    display: inline-block;
+    margin: 20px;
 }
 
 h2 {
     color: #7FDBFF;
 }
+
 img {
     width: 100%;
     height: auto;
-    max-width: 300px; /* Adjust the max-width as needed */
+    max-width: 400px;
     display: block;
     margin: 0 auto;
 }
+
+.fact {
+    display: block;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.fact:nth-child(even) {
+    animation: fadeInUp 1s ease-in-out;
+}
+
 .back-button:hover {
     background-color: #00b7ff;
     transform: scale(1.1);
@@ -73,13 +90,4 @@ img {
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-.fact {
-    display: block;
-    animation: fadeInDown 1s ease-in-out;
-}
-
-.fact:nth-child(even) {
-    animation: fadeInUp 1s ease-in-out;
 }
