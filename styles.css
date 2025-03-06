@@ -46,7 +46,7 @@ img {
 
 .fact:nth-child(even) {
     animation: fadeInUp 1s ease-in-out;
-}
+
 
 .back-button:hover {
     background-color: #00b7ff;
